@@ -5,7 +5,8 @@ use cricket_2023;
 ##Bowling Summary:
 
 ##1. Retrieve all bowling records.
-SELECT * FROM `bowling summary`;
+SELECT * 
+FROM `bowling summary`;
 
 ##2. Get the total number of wickets taken by each bowler.
 SELECT Bowler_Name, SUM(Wickets) AS Total_Wickets
